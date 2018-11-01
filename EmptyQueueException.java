@@ -1,0 +1,1 @@
+// EmptyQueueException classpublic class EmptyQueueException extends RuntimeException {   // zero-parameter constructor   public EmptyQueueException() {      // delegates by calling one-parameter constructor      this(null);   }       // one-parameter constructor   public EmptyQueueException(String message) {      super(message);   }}
